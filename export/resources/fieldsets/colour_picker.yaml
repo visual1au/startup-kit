@@ -1,0 +1,46 @@
+title: 'Colour Picker'
+fields:
+  -
+    handle: colour
+    field:
+      swatches:
+        - '#325ced'
+        - '#eff4fe'
+        - '#f9f9f9'
+        - '#c8c7cc'
+        - '#bccaef'
+        - '#000000'
+        - '#ffffff'
+      type: color
+      display: Colour
+      width: 75
+  -
+    handle: gradient
+    field:
+      type: toggle
+      display: Gradient
+      width: 25
+  -
+    handle: secondary_colour
+    field:
+      swatches:
+        - '#325ced'
+        - '#eff4fe'
+        - '#f9f9f9'
+        - '#c8c7cc'
+        - '#bccaef'
+        - '#000000'
+        - '#ffffff'
+      type: color
+      display: 'Secondary Colour'
+      if:
+        gradient: 'equals true'
+  -
+    handle: opacity
+    field:
+      step: 10
+      default: 100
+      type: range
+      display: Opacity
+      if:
+        colour: 'not #ffffff'

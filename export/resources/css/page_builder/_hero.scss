@@ -1,0 +1,11 @@
+.hero {
+    @apply bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/50;
+
+    header {
+        @apply mt-24 text-center;
+    }
+
+    .buttons {
+        @apply mt-8 flex flex-wrap items-center justify-center gap-2;
+    }
+}

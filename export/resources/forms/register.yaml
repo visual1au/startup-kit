@@ -1,0 +1,9 @@
+title: Register
+honeypot: form_username
+email:
+  -
+    id: md6wz2gf
+    to: support@visual1.com.au
+    html: emails/form-submission
+    markdown: true
+    mailer: smtp

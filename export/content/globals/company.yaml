@@ -1,0 +1,72 @@
+title: Company
+data:
+  name: Visual1
+  logo: logoipsum-380.png
+  icon: logoipsum-381.png
+  social_links:
+    -
+      id: m508waqx
+      label: Facebook
+      link: facebook.com
+      fontawesome_icon:
+        code: '<i class="fa-brands fa-facebook-f fa-lg"></i>'
+        mode: htmlmixed
+      type: social
+      enabled: true
+      social_icon:
+        -
+          id: md8d8ltk
+          style: brands
+          brands: facebook
+          icon_colour: '#ffffff'
+          icon_hover_colour: '#325ced'
+          icon_size: 5
+    -
+      id: m508xay9
+      label: Instagram
+      link: instagram.com
+      fontawesome_icon:
+        code: '<i class="fa-brands fa-instagram fa-lg"></i>'
+        mode: htmlmixed
+      type: social
+      enabled: true
+      social_icon:
+        -
+          id: md8dsrva
+          style: brands
+          brands: instagram
+          icon_colour: '#ffffff'
+          icon_hover_colour: '#325ced'
+          icon_size: 5
+    -
+      id: m508y2vb
+      label: LinkedIn
+      link: linkedin.com
+      fontawesome_icon:
+        code: '<i class="fa-brands fa-linkedin-in fa-lg"></i>'
+        mode: htmlmixed
+      type: social
+      enabled: true
+      social_icon:
+        -
+          id: md8dt9ox
+          style: brands
+          brands: linkedin-in
+          icon_colour: '#ffffff'
+          icon_hover_colour: '#325ced'
+          icon_size: 5
+  legal_links:
+    -
+      id: m50a039k
+      label: 'Privacy Policy'
+      entry:
+        - c105df7d-bc96-4b06-adfe-598144619868
+      type: legal
+      enabled: true
+    -
+      id: m50c9x80
+      label: 'Terms & Conditions'
+      entry:
+        - 61178f15-f98c-4852-9c9c-47a35eea3ba8
+      type: legal
+      enabled: true

@@ -1,0 +1,23 @@
+title: Banner
+fields:
+  -
+    import: colour_picker
+    prefix: banner_bg_
+  -
+    handle: slug
+    field:
+      type: slug
+      display: Slug
+      instructions: 'The slug is required for anchored links.'
+  -
+    import: header
+    prefix: banner_
+  -
+    import: markdown_content
+    prefix: banner_
+  -
+    import: buttons
+    prefix: banner_
+  -
+    import: colour_picker
+    prefix: banner_

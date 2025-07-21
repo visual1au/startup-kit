@@ -1,0 +1,50 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: first_name
+            field:
+              type: text
+              display: 'First Name'
+              validate:
+                - required
+              width: 50
+              placeholder: 'First Name'
+          -
+            handle: last_name
+            field:
+              type: text
+              display: 'Last Name'
+              validate:
+                - required
+              width: 50
+              placeholder: 'Last Name'
+          -
+            handle: phone
+            field:
+              input_type: tel
+              placeholder: Phone
+              type: text
+              display: Phone
+              width: 50
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              input_type: email
+              type: text
+              display: Email
+              validate:
+                - required
+              width: 50
+              placeholder: Email
+          -
+            handle: message
+            field:
+              placeholder: 'Write something...'
+              type: textarea
+              display: Message

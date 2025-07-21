@@ -1,0 +1,24 @@
+{
+    "name": "visual1au/startup-kit",
+    "extra": {
+        "statamic": {
+            "name": "V1 Startup Kit",
+            "description": "Basic startup kit with theme selection"
+        },
+        "laravel": {
+            "providers": [
+                "Visual1Au\\V1StartupKit\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Visual1Au\\V1StartupKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}

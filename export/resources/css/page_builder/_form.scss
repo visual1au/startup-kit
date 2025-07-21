@@ -1,0 +1,35 @@
+.form-section {
+    @apply mx-auto flex gap-16;
+
+    .form-container {
+        @apply bg-white p-6 rounded-xl;
+    }
+
+    header {
+        img {
+            @apply max-h-72 w-auto my-8 mx-auto;
+        }
+    }
+
+    input,
+    select,
+    textarea {
+        @apply border border-secondary text-sm rounded-full bg-tertiary;
+        @apply focus:ring-primary focus:ring-1 focus:border-primary;
+        @apply focus:outline-none;
+        @apply block w-full p-4;
+    }
+
+    textarea {
+        @apply rounded-3xl;
+    }
+
+    .error {
+        @apply text-red-500;
+    }
+
+    /* Honeypot */
+    .poohbear {
+        display: none;
+    }
+}

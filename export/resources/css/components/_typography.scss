@@ -1,0 +1,31 @@
+* {
+    @apply font-primary;
+}
+
+h1 {
+    @apply lg:text-5xl md:text-4xl text-3xl font-medium lg:leading-[77px];
+}
+
+h2 {
+    @apply lg:text-4xl md:text-3xl text-2xl font-medium lg:leading-tight;
+}
+
+h3 {
+    @apply lg:text-3xl md:text-2xl text-xl font-medium lg:leading-tight;
+}
+
+h4 {
+    @apply lg:text-2xl md:text-xl text-lg font-medium lg:leading-tight;
+}
+
+h5 {
+    @apply lg:text-xl md:text-lg text-base font-medium lg:leading-tight;
+}
+
+h5 {
+    @apply lg:text-lg md:text-base text-sm font-medium lg:leading-tight;
+}
+
+p {
+    @apply lg:text-lg md:text-base text-sm lg:leading-relaxed;
+}

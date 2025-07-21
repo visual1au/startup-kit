@@ -1,0 +1,45 @@
+title: Info
+fields:
+  -
+    import: colour_picker
+    prefix: info_
+  -
+    handle: slug
+    field:
+      type: slug
+      display: Slug
+  -
+    handle: featured_image
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Featured Image'
+  -
+    handle: info_cards
+    field:
+      max_sets: 2
+      type: replicator
+      display: 'Info Cards'
+      sets:
+        new_set_group:
+          display: 'New Set Group'
+          sets:
+            new_set:
+              display: 'New Set'
+              fields:
+                -
+                  handle: icon
+                  field:
+                    type: code
+                    display: 'Font Awesome Icon'
+                    instructions: 'https://fontawesome.com/search'
+                -
+                  import: header
+                  prefix: info_
+                -
+                  import: markdown_content
+                  prefix: info_
+  -
+    import: buttons
+    prefix: info_

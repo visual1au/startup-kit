@@ -1,0 +1,63 @@
+title: 'Theme Settings'
+data:
+  template: v1
+  google_font:
+    code: |-
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    mode: htmlmixed
+  colours:
+    -
+      id: m561eno4
+      label: Primary
+      color: '#325ced'
+      type: colour
+      enabled: true
+    -
+      id: md5iorzy
+      color: '#eff4fe'
+      type: colour
+      enabled: true
+    -
+      id: m5633lww
+      label: Tertiary
+      color: '#f9f9f9'
+      type: colour
+      enabled: true
+    -
+      id: m561f5rr
+      label: Secondary
+      color: '#c8c7cc'
+      type: colour
+      enabled: true
+    -
+      id: md6r3m48
+      color: '#bccaef'
+      type: colour
+      enabled: true
+    -
+      id: m561g7zz
+      label: Quaternary
+      color: '#000000'
+      type: colour
+      enabled: true
+    -
+      id: m5648nkg
+      label: Default
+      color: '#ffffff'
+      type: colour
+      enabled: true
+    -
+      id: md6rqoz5
+      color: '#666666'
+      type: colour
+      enabled: false
+  primary: '#325ced'
+  secondary: '#bccaef'
+  tertiary: '#eff4fe'
+  quaternary: '#f9f9f9'
+  white: '#ffffff'
+  lightGrey: '#c8c7cc'
+  darkGrey: '#666666'
+  black: '#000000'

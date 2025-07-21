@@ -1,0 +1,14 @@
+title: 'Markdown Content'
+fields:
+  -
+    handle: content
+    field:
+      type: markdown
+      display: Content
+      width: 75
+  -
+    handle: text_colour
+    field: colour_picker.colour
+    config:
+      display: 'Text Colour'
+      width: 25
