@@ -32,7 +32,7 @@ fields:
   -
     handle: solid
     field:
-      directory: public/assets/svg/icons/solid
+      directory: resources/data/svg/icons/solid
       type: icon
       display: 'Classic Solid'
       width: 50
@@ -41,7 +41,7 @@ fields:
   -
     handle: regular
     field:
-      directory: public/assets/svg/icons/regular
+      directory: resources/data/svg/icons/regular
       type: icon
       display: 'Classic Regular'
       width: 50
@@ -50,7 +50,7 @@ fields:
   -
     handle: light
     field:
-      directory: public/assets/svg/icons/light
+      directory: resources/data/svg/icons/light
       type: icon
       display: 'Classic Light'
       width: 50
@@ -59,7 +59,7 @@ fields:
   -
     handle: sharp_solid
     field:
-      directory: public/assets/svg/icons/sharp-solid
+      directory: resources/data/svg/icons/sharp-solid
       type: icon
       display: 'Sharp Solid'
       width: 50
@@ -68,7 +68,7 @@ fields:
   -
     handle: sharp_regular
     field:
-      directory: public/assets/svg/icons/sharp-regular
+      directory: resources/data/svg/icons/sharp-regular
       type: icon
       display: 'Sharp Regular'
       width: 50
@@ -77,7 +77,7 @@ fields:
   -
     handle: sharp_light
     field:
-      directory: public/assets/svg/icons/sharp-light
+      directory: resources/data/svg/icons/sharp-light
       type: icon
       display: 'Sharp Light'
       width: 50
@@ -86,7 +86,7 @@ fields:
   -
     handle: brands
     field:
-      directory: public/assets/svg/icons/brands
+      directory: resources/data/svg/icons/brands
       type: icon
       display: Brands
       width: 50
