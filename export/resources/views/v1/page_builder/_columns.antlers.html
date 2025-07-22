@@ -1,6 +1,6 @@
 {{ partial:{{ theme_settings:template }}/page_builder/block }}
     <section id="{{ block:slug }}" style="background-image: url('{{ background_image }}')"
-    class="{{ if background_image }} bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/50 {{ /if }}
+    class="lg:mx-12 lg:rounded-xl {{ if background_image }} bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/50 {{ /if }}
         {{ switch(
             (columns_bg_gradient == true) => 'bg-gradient-to-r from-[{{ columns_bg_colour }}]/{{ columns_bg_opacity }} to-[{{ columns_bg_secondary_colour }}]/{{ columns_bg_opacity }} ',
             (columns_bg_gradient == false) => 'bg-[{{ columns_bg_colour }}] bg-opacity-{{ columns_bg_opacity }}'
