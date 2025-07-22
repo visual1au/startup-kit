@@ -35,11 +35,9 @@ class ColorUpdateListener
     protected function updateColourPickerFieldset($themeSettings)
     {
         // Get the colors from the saved global set
-        $colours = $themeSettings->in('default')->data()['colours'] ?? [];
-
-        $swatches = collect($colours)
-            ->where('enabled', true)
-            ->pluck('color')
+        $swatches = collect($themeSettings->in('default')->data())
+            ->filter(fn ($value) => is_string($value) && Str::startsWith($value, '#'))
+            ->values()
             ->toArray();
 
         if (! empty($swatches)) {
