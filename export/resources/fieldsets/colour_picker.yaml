@@ -5,12 +5,13 @@ fields:
     field:
       swatches:
         - '#325ced'
+        - '#bccaef'
         - '#eff4fe'
         - '#f9f9f9'
-        - '#c8c7cc'
-        - '#bccaef'
-        - '#000000'
         - '#ffffff'
+        - '#c8c7cc'
+        - '#666666'
+        - '#000000'
       type: color
       display: Colour
       width: 75
@@ -25,12 +26,13 @@ fields:
     field:
       swatches:
         - '#325ced'
+        - '#bccaef'
         - '#eff4fe'
         - '#f9f9f9'
-        - '#c8c7cc'
-        - '#bccaef'
-        - '#000000'
         - '#ffffff'
+        - '#c8c7cc'
+        - '#666666'
+        - '#000000'
       type: color
       display: 'Secondary Colour'
       if:

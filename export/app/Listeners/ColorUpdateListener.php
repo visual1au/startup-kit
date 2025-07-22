@@ -2,6 +2,7 @@
 
 namespace App\Listeners;
 
+use Illuminate\Support\Str;
 use Statamic\Facades\Fieldset;
 use Statamic\Events\GlobalSetSaved;
 use Illuminate\Support\Facades\Artisan;
