@@ -4,7 +4,7 @@ spaced without having to worry about margins or paddings. #}}
 
 <!-- /default.antlers.html -->
 {{ partial:{{ theme_settings:template }}/navigation/nav }}
-<main>
+<main class="flex-grow">
     {{ page_builder scope="block" }} {{ partial src="{{ theme_settings:template
     }}/page_builder/{type}" }} {{ /page_builder }}
 </main>
