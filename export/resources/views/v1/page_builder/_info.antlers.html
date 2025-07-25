@@ -19,10 +19,13 @@
                 <div class="grid grid-cols-1 lg:grid-cols-{{ info_cards | count }} gap-8">
                     {{ info_cards }}
                     <div class="bg-quaternary px-8 pt-6 pb-16 rounded-xl">
-                        {{ if icon }}
-                        <div class="size-12 flex items-center justify-center text-primary bg-white rounded-full p-4 mb-6">{{ icon }}</div>
+                        {{ if info_card_icon }}
+                        <div class="size-14 flex items-center justify-center text-primary bg-white rounded-full p-4 mb-6">
+                            {{ info_card_icon }}
+                            {{ partial:components/icon }}
+                            {{ /info_card_icon }}
+                        </div>
                         {{ /if }}
-
                         {{ info_title }}
                             <{{ heading }} class=" flex-1 mb-4 text-[{{ text_colour }}]">
                                 {{ title }}

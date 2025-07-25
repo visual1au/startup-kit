@@ -29,11 +29,8 @@ fields:
               display: 'New Set'
               fields:
                 -
-                  handle: icon
-                  field:
-                    type: code
-                    display: 'Font Awesome Icon'
-                    instructions: 'https://fontawesome.com/search'
+                  import: icon
+                  prefix: info_card_
                 -
                   import: header
                   prefix: info_

@@ -95,6 +95,13 @@ page_builder:
         info_text_colour: '#666666'
         type: new_set
         enabled: true
+        info_card_icon:
+          -
+            id: mdici1a1
+            style: light
+            light: pencil
+            icon_colour: '#325ced'
+            icon_size: 6
       -
         id: md6qd3m7
         icon:
@@ -112,6 +119,13 @@ page_builder:
         info_text_colour: '#666666'
         type: new_set
         enabled: true
+        info_card_icon:
+          -
+            id: mdicif1i
+            style: light
+            light: sliders
+            icon_colour: '#325ced'
+            icon_size: 6
     type: info
     enabled: true
     info_buttons:
@@ -211,8 +225,8 @@ page_builder:
       - logoipsum-382.png
     type: marquee
     enabled: true
-updated_by: 93ee1a7f-2e05-47d5-96dc-8b9aeb023769
-updated_at: 1752814496
+updated_by: da1b61a3-cd8c-435c-8f04-bbad63e2e1e5
+updated_at: 1753419200
 ---
 ## Welcome to your brand new Statamic site!
 
