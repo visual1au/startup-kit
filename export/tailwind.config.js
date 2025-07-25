@@ -42,6 +42,7 @@ export default {
             },
             fontFamily: {
                 ...themeFont, // resources/data/themeFont.json
+                // primary: ["Intel One Mono", "sans-serif"],
             },
             animation: {
                 "full-tl": "marquee-left 40s linear infinite",

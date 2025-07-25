@@ -25,10 +25,10 @@ if (typeof googleFontCode === "string") {
 
     if (match) {
         const familyParam = decodeURIComponent(match[1]);
-        const fontName = familyParam.split(":")[0];
+        const fontName = familyParam.split(":")[0].replace(/\+/g, " ");
 
         const output = {
-            primary: [`'${fontName}'`, "sans-serif"],
+            primary: [fontName, "sans-serif"],
         };
 
         fs.writeFileSync(outputFile, JSON.stringify(output, null, 2));
